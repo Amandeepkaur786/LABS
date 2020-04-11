@@ -1,0 +1,17 @@
+p=input ('enter students numbers')
+switch p
+  case 30
+    disp('grade E')
+    case 40
+    disp('grade D')
+    case 50
+    disp('grade C')
+    case 60
+    disp('grade C+')
+    case 70
+      disp('grade B')
+      case 99
+        disp('grade A+')
+        otherwise
+        disp('other')
+        end
