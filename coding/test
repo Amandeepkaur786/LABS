@@ -1,0 +1,27 @@
+/*
+ ============================================================================
+ Name        : test1.c
+ Author      : Amandeep Kaur
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int a ,b ,*p,*q;
+	p=&a;
+	q=&b;
+	a=1;
+	b=2;
+	p=(int*)malloc(a*sizeof(int));
+    q=(int*)malloc(a*sizeof(int));
+	*p=1;
+	*q=2;
+	printf("%d     ",p);
+	printf("%d,",q);
+	return 0;
+}
